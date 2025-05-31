@@ -1,0 +1,47 @@
+body{
+    padding: 0px;
+    margin: 0;
+    background-color: #ebe1d1;
+
+}
+#banner{
+    width: 100%;
+    padding-left: 0px;
+}
+.recipe{
+    width: fit-content;
+    border-color: #838A47;
+    background-color: #838A47;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    color: #ebe1d1;
+    font-size: large;
+    font-weight: bold;
+    float: left;
+    margin: 10px;
+}
+.recipe > img{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+#list{
+    overflow: hidden;
+}
+button{
+    margin: 10px;
+    background-color: #838A47;
+    border: none;
+    color: #ebe1d1;
+}
+#md-content{
+    margin:10px;
+    color:#838A47;
+    width: 50%;
+}
+#md-content > h1,h2, h3{
+    color:#51552b;
+}
+#footer{
+    margin: 10px;
+}
