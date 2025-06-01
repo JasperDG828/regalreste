@@ -18,7 +18,7 @@ body{
     color: #ebe1d1;
     font-size: large;
     font-weight: bold;
-    float: left;
+    
     margin: 10px;
     transition: 200ms background-color, 200ms border-color;
 }
@@ -57,4 +57,25 @@ button:hover{
 }
 #footer{
     margin: 10px;
+}
+@media(orientation: portrait){
+    #md-content{
+        width: 90%;
+    }
+    .recipe{
+        width: 70%
+    }
+    .recipe > img{
+        width: 100%
+    }
+
+}
+
+@media(orientation: landscape){
+    .recipe{
+        float: left;
+    }
+    .recipe > img{
+        height: 200px;
+    }
 }
