@@ -20,6 +20,14 @@ body{
     font-weight: bold;
     float: left;
     margin: 10px;
+    transition: 200ms background-color, 200ms border-color;
+}
+.recipe:hover{
+    background-color: #51552b;
+    border-color: #51552b;
+}
+.recipe:active{
+    border-color: #000;
 }
 .recipe > img{
     border-top-right-radius: 8px;
@@ -33,6 +41,11 @@ button{
     background-color: #838A47;
     border: none;
     color: #ebe1d1;
+    transition: 200ms background-color;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #51552b;
 }
 #md-content{
     margin:10px;
